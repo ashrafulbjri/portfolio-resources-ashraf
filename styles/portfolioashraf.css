@@ -1,0 +1,53 @@
+/* common shared styles */
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 36px;
+}
+
+/* আমার ক্ষেত্রে Open Sans এ font-family: 'Lato', sans-serif; আসে নাই */
+
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.orange-text {
+    color: #FD6E0A;
+}
+
+.web-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+/* nav এর immediate জিনিসিটা; অর্থাৎ ul টা সাইজ করার জন্য। */
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+/* nav এর ভিতরের li গুলো সাইজ করার জন্য। */
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
