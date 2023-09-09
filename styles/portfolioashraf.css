@@ -13,6 +13,15 @@ body {
     font-weight: 700;
     padding: 18px 36px;
 }
+.btn-second {
+    border-radius: 5px;
+    background: #FFF8F3;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 36px;
+}
+
 
 /* আমার ক্ষেত্রে Open Sans এ font-family: 'Lato', sans-serif; আসে নাই */
 
@@ -21,6 +30,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .orange-text {
@@ -37,17 +47,28 @@ nav>ul {
     display: flex;
     align-items: center;
 }
-
 /* nav এর immediate জিনিসিটা; অর্থাৎ ul টা সাইজ করার জন্য। */
 
 nav li {
     list-style: none;
     margin-right: 50px;
 }
-
 /* nav এর ভিতরের li গুলো সাইজ করার জন্য। */
 
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header related styles */
+.header{
+    background: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+}
+.banner .profile-pic{
+    width: 500px;
 }
